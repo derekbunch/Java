@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.jgoodies:jgoodies-forms:1.9.0" type="repository">
+    <properties maven-id="com.jgoodies:jgoodies-forms:1.9.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-forms/1.9.0/jgoodies-forms-1.9.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-common/1.8.1/jgoodies-common-1.8.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-forms/1.9.0/jgoodies-forms-1.9.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-common/1.8.1/jgoodies-common-1.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

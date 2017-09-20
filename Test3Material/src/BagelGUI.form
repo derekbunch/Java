@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BagelGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:23px:noGrow"/>
+    <rowspec value="top:21dlu:noGrow"/>
+    <rowspec value="center:31px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:68px:noGrow"/>
+    <rowspec value="top:3dlu:noGrow"/>
+    <rowspec value="top:34dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:108px:noGrow"/>
+    <colspec value="left:28dlu:noGrow"/>
+    <colspec value="fill:26px:noGrow"/>
+    <colspec value="fill:123px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="527" height="441"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="97f39" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Order Calculator"/>
+        </properties>
+      </component>
+      <component id="57d44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="                             Welcome to Brandi's Bagel House"/>
+        </properties>
+      </component>
+      <grid id="406d0" layout-manager="FormLayout">
+        <rowspec value="center:31px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:noGrow"/>
+        <constraints>
+          <grid row="2" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Bagel">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="5cfce" class="javax.swing.JRadioButton" binding="radWhiteBagel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="White"/>
+            </properties>
+          </component>
+          <component id="d09f9" class="javax.swing.JRadioButton" binding="radWheatBagel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Wheat"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8b053" layout-manager="FormLayout">
+        <rowspec value="center:31px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:133px:noGrow"/>
+        <constraints>
+          <grid row="2" column="2" row-span="5" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Toppings">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="1109a" class="javax.swing.JCheckBox" binding="chkCreamCheese">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Cream Cheese"/>
+            </properties>
+          </component>
+          <component id="a9974" class="javax.swing.JCheckBox" binding="chkButter">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Butter"/>
+            </properties>
+          </component>
+          <component id="130a6" class="javax.swing.JCheckBox" binding="chkPeachJelly">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Peach Jelly"/>
+            </properties>
+          </component>
+          <component id="adf18" class="javax.swing.JCheckBox" binding="chkBlueberryJam">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Blueberry Jam"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7e4f6" layout-manager="FormLayout">
+        <rowspec value="center:31px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:123px:noGrow"/>
+        <constraints>
+          <grid row="2" column="5" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Coffee">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="23e9" class="javax.swing.JRadioButton" binding="radNone">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="None"/>
+            </properties>
+          </component>
+          <component id="718eb" class="javax.swing.JRadioButton" binding="radRegularCoffee">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Regular Coffee"/>
+            </properties>
+          </component>
+          <component id="55afb" class="javax.swing.JRadioButton" binding="radDecafCoffee">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Decaf Coffee"/>
+            </properties>
+          </component>
+          <component id="6d0d0" class="javax.swing.JRadioButton" binding="radCappuccino">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Cappuccino"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="68254" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="a8690" class="javax.swing.JButton" binding="btnCalculate">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Calculate"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Bagel">
+      <member id="5cfce"/>
+      <member id="d09f9"/>
+    </group>
+    <group name="Coffee">
+      <member id="23e9"/>
+      <member id="718eb"/>
+      <member id="55afb"/>
+      <member id="6d0d0"/>
+    </group>
+  </buttonGroups>
+</form>
